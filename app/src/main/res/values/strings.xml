@@ -4,6 +4,8 @@
     <string name="tinder_description">By clicking Log in, \n you agree with our Terms.\n Learn how we process your data in our \nPrivacy Policy and Cookies Policy.</string>
     <string name="trouble_description">Trouble logging in?</string>
 
+    <string name="whatsapp_read">Read our <a href="https://https://whatsapp.com/legal/privacy-policy">Privacy Policy</a>. Tap "Agree and continue"\nto accept the <a href="https://whatsapp.com/legal/terms-of-service">Terms of Service</a>.</string>
+
     <string-array name="country">
         <item>Indonesia</item>
         <item>Malaysia</item>
