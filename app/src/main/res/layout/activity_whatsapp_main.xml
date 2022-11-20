@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/wa_color"
+    tools:context=".WhatsappMain">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Welcome to WhatsApp"
+
+        android:layout_marginTop="80dp"
+
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="normal"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvDescWa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/whatsapp_read"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@id/btn_agree"
+        android:layout_marginTop="-50dp"
+        android:gravity="center"
+
+        android:textColor="@color/white"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_agree"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Agree and Continue"
+        android:textColor="@color/wa_color"
+        android:background="@drawable/rounded_corner2"
+
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="18dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        app:srcCompat="@drawable/whatsapp_welcome" />
+
+</RelativeLayout>
