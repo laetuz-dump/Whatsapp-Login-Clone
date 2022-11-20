@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Binar Relative</string>
+    <string name="login">Login</string>
+    <string name="tinder_description">By clicking Log in, \n you agree with our Terms.\n Learn how we process your data in our \nPrivacy Policy and Cookies Policy.</string>
+    <string name="trouble_description">Trouble logging in?</string>
+
+    <string-array name="country">
+        <item>Indonesia</item>
+        <item>Malaysia</item>
+        <item>Singapore</item>
+    </string-array>
+</resources>

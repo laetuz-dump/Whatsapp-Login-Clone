@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg_two"
+
+    >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+
+        app:srcCompat="@drawable/tinder_logo" />
+
+    <TextView
+        android:id="@+id/tindDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tinder_description"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_centerInParent="true"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="-150dp"
+        />
+
+    <TextView
+        android:id="@+id/textTrouble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/trouble_description"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_alignBottom="@+id/RelOne"
+        android:layout_centerInParent="true"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="-50dp"
+        />
+
+    <RelativeLayout
+        android:id="@+id/RelOne"
+        android:layout_width="match_parent"
+        android:layout_height="227dp"
+        android:layout_alignBottom="@+id/tindDesc"
+        android:layout_centerInParent="true"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="-250dp">
+
+
+        <LinearLayout
+            android:id="@+id/BtnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="-50dp"
+            android:background="@drawable/rounded_corner"
+            android:orientation="horizontal"
+            android:text="@string/login"
+
+            android:textColor="@color/black">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/imageView2"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:padding="1dp"
+                app:srcCompat="@drawable/google_logo" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center_horizontal"
+                android:padding="10dp"
+                android:text="LOGIN WITH GOOGLE"
+                android:textSize="22sp" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/imageView3"
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:background="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/BtnLoginFB"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/BtnLogin"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="-70dp"
+            android:background="@drawable/rounded_corner"
+            android:orientation="horizontal"
+            android:text="@string/login"
+
+            android:textColor="@color/black">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/imageView4"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:padding="1dp"
+                app:srcCompat="@drawable/facebook_logo" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center_horizontal"
+                android:padding="10dp"
+                android:text="LOGIN WITH FACEBOOK"
+                android:textSize="21sp" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/imageView6"
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:background="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/BtnLoginPhone"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/BtnLoginFB"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="-70dp"
+            android:background="@drawable/rounded_corner"
+            android:orientation="horizontal"
+            android:text="@string/login"
+
+            android:textColor="@color/black">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/imageView7"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:padding="1dp"
+                app:srcCompat="@drawable/chat_logo" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center_horizontal"
+                android:padding="10dp"
+
+                android:text="LOGIN WITH PHONE NUMBER"
+                android:textSize="21sp" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
+
