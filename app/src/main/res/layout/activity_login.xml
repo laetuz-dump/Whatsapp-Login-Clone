@@ -4,11 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Login"
     android:background="@color/wa_color"
-    >
-
-
+    android:id="@+id/RelTwo"
+    tools:context=".Login">
 
 
     <androidx.appcompat.widget.AppCompatTextView
@@ -16,26 +14,24 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:text="Enter your phone number"
-
         android:layout_marginTop="10dp"
+
+        android:text="Enter your phone number"
 
         android:textColor="@color/white"
         android:textSize="18sp"
-        android:textStyle="bold"
-        />
+        android:textStyle="bold" />
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/tvDesc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Whatsapp will need to verify your phone number"
-        android:layout_centerHorizontal="true"
         android:layout_alignBottom="@+id/tvTitle"
+        android:layout_centerHorizontal="true"
         android:layout_marginBottom="-40dp"
+        android:text="Whatsapp will need to verify your phone number"
 
-        android:textColor="@color/white"
-        />
+        android:textColor="@color/white" />
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/tvWhat"
@@ -54,10 +50,10 @@
         android:layout_height="30dp"
 
         android:layout_alignBottom="@id/tvWhat"
-        android:gravity="center"
-
         android:layout_centerHorizontal="true"
+
         android:layout_marginBottom="-50dp"
+        android:gravity="center"
 
         android:textColor="@color/wa_hint_color" />
 
@@ -65,40 +61,39 @@
         android:id="@+id/editTextPhone"
         android:layout_width="170dp"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="number"
-
-        android:layout_centerHorizontal="true"
-        android:hint="phone number"
-
         android:layout_alignBottom="@id/spinnerCountry"
+        android:layout_centerHorizontal="true"
+
         android:layout_marginBottom="-30dp"
-
-        android:textColorHint="@color/wa_hint_color"
         android:background="@drawable/spinner_bg"
+        android:ems="10"
 
+        android:focusableInTouchMode="true"
+        android:hint="@string/phone_number"
+
+        android:inputType="number"
         android:textColor="@color/white"
-        />
+
+        android:textColorHint="@color/wa_hint_color" />
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/tv_result"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:visibility="gone"
-        android:gravity="center" />
+        android:gravity="center"
+        android:visibility="gone" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_next"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="NEXT"
-        android:textColor="@color/wa_color"
-        android:background="@drawable/rounded_corner2"
-
-        android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
         android:layout_marginBottom="18dp"
-        />
+
+        android:background="@drawable/rounded_corner2"
+        android:text="NEXT"
+        android:textColor="@color/wa_color" />
 
 
 </RelativeLayout>

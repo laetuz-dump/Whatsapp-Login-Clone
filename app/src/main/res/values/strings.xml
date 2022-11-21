@@ -5,6 +5,7 @@
     <string name="trouble_description">Trouble logging in?</string>
 
     <string name="whatsapp_read">Read our <a href="https://https://whatsapp.com/legal/privacy-policy">Privacy Policy</a>. Tap "Agree and continue"\nto accept the <a href="https://whatsapp.com/legal/terms-of-service">Terms of Service</a>.</string>
+    <string name="phone_number">phone number</string>
 
     <string-array name="country">
         <item>Indonesia</item>
